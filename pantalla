@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {
+  background-color: darkslategray;
+}
+
+h1 {
+  color: white;
+  text-align: center;
+  font-family: serif;
+  font-size: 50px;
+}
+
+p {
+  font-family: Helvetica;
+  font-size: 40px;
+  text-align: center;
+  color: silver;
+}
+
+.triangle-bottomleft {
+      width: 25%;
+      height: 80%;
+      border-bottom: 100px solid black;
+      border-right: 100px solid transparent;
+      
+  }
+
+</style>
+</head>
+
+<body>
+
+<h1>¡Bienvenidos!</h1>
+<p>Laboratorios de cómputo</p>
+<div>
+<div class="triangle-bottomleft "></div>
+<script type="text/javascript">
+			function startTime(){
+			today=new Date();
+			h=today.getHours() - 1;
+			m=today.getMinutes();
+			s=today.getSeconds();
+			m=checkTime(m);
+			s=checkTime(s);
+			document.getElementById('reloj').innerHTML=h+":"+m+":"+s;
+			t=setTimeout('startTime()',500);}
+			function checkTime(i)
+			{if (i<10) {i="0" + i;}return i;}
+			window.onload=function(){startTime();}
+			</script>
+							<div id="reloj" style="text-align: left; margin:0px auto; font-size:160px; color: #fff;">  </div>
+
+</div>
+</body>
+</html>
