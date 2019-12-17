@@ -61,8 +61,14 @@ sudo add-apt-repository ppa:lyzardking/ubuntu-make -y
 sudo apt-get update -y
 sudo apt-get install ubuntu-make -y
 umake ide eclipse -y
-
-
+curl -o Greenfoot-linux-361.deb https://www.greenfoot.org/download/files/Greenfoot-linux-361.deb
+sudo dpkg -i Greenfoot-linux-361.deb
+curl -o bluej.deb https://www.bluej.org/download/files/BlueJ-linux-422.deb
+sudo apt-get install openjfx
+sudo apt --fix-broken install -y
+sudo dpkg -i bluej.deb
+wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+sudo dpkg -i google-chrome-stable_current_amd64.deb
 
 
 
