@@ -23,8 +23,9 @@ p {
 .triangle-bottomleft {
       width: 25%;
       height: 80%;
-      border-bottom: 100px solid black;
+      border-bottom: 300px solid black;
       border-right: 100px solid transparent;
+      z-index: 1;
       
   }
 
@@ -36,11 +37,11 @@ p {
 <h1>¡Bienvenidos!</h1>
 <p>Laboratorios de cómputo</p>
 <div>
-<div class="triangle-bottomleft "></div>
+<div class="triangle-bottomleft ">
 <script type="text/javascript">
 			function startTime(){
 			today=new Date();
-			h=today.getHours() - 1;
+			h=today.getHours() ;
 			m=today.getMinutes();
 			s=today.getSeconds();
 			m=checkTime(m);
@@ -53,6 +54,7 @@ p {
 			</script>
 							<div id="reloj" style="text-align: left; margin:0px auto; font-size:160px; color: #fff;">  </div>
 
+</div>
 </div>
 </body>
 </html>
