@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style type="text/css">
+
+body{
+	background-color: #18121E;
+	margin: 0px;
+	padding: 0px;
+}
+
+.mitad1{
+	
+}
+
+#anuncios{
+	float: right;
+	margin-right: 0px;
+	height: 20%;
+}
+
+
+</style>
+</head>
+
+<body>
+<div class="mitad1">
+	<img id="anuncios" src="juegoAnuncio.jpg" alt="">
+</div>
+</body>
+
+</html>

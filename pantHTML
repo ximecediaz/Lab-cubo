@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style type="text/css">
+
+body{
+	background-color: #18121E;
+	margin: 0px;
+	padding: 0px;
+}
+
+figure{
+	display: inline-block;
+}
+
+.mitad1{
+	
+}
+
+#slideshow{
+	position: relative;
+	
+}
+
+#anuncios{
+	float: right;
+	margin-right: 0px;
+	height: 20%;
+}
+
+div.time{
+	font-size: 8em;
+	
+}
+
+
+</style>
+</head>
+
+<body>
+<div class="mitad1">
+	<img id="anuncios" src="juegoAnuncio.jpg" alt="">
+</div>
+</body>
+
+</html>
